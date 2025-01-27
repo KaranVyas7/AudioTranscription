@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.siteTital{
+    font-size: 2rem;
+}
+.nav li:hover{
+    background-color: #777;
+}
+.nav a{
+    text-decoration: none;
+}
+
+#profile:active{
+    background-color: aqua;
+}
