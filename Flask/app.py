@@ -8,12 +8,12 @@ import time
 import send2trash
 
 
-UPLOAD_FOLDER = 'C:/Users/AmarS/CapstoneFinalProject/Capstone-Final-Project/Flask'
+UPLOAD_FOLDER = 'C:/Users/KaranVyas/AudioTranscription'
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 transcribed_files = {}
 
-cred = credentials.Certificate("C:/Users/AmarS/CapstoneFinalProject/Capstone-Final-Project/Flask/firebaseapikey.json")
+cred = credentials.Certificate("C:/Users/KaranVyas/AudioTranscription/Flask/firebaseapikey.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
